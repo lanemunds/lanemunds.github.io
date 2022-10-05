@@ -50,7 +50,7 @@ ul{
     text-align: center;
     width: 50%;
     flex-wrap: wrap;
-    border-radius: 80%;
+    border-radius: 30%;
     border: 2px solid #78290F;
     background-color: #9197AE;
     font-size: 18pt;
@@ -61,7 +61,7 @@ ul{
         
     }
     #skillsList li{
-        padding: 50px;
+        padding: 25px;
     }
    
 
@@ -78,3 +78,14 @@ ul{
 .projects{
     border-radius: 0%;
 }
+p{
+    color: #001524;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   flex-direction: column;
+    width: 25%;
+    font-size: 16pt;
+    background-color: #9197AE;
+}
+
