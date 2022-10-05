@@ -26,9 +26,15 @@ h1{
     color: #001524;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 #skillsList{
     color: #001524;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+lane{
+    background-color: #15616D;
 }
