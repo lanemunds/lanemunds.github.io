@@ -1,6 +1,8 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image:url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") ;
 }
 header{
@@ -28,6 +30,7 @@ h1{
     align-items: center;
     flex: 1;
     width: 20%;
+   
 }
 
 #contactList{
@@ -35,23 +38,43 @@ h1{
     display: flex;
     justify-content: space-around;
     text-align: center;
+   flex-direction: column;
+    width: 25%;
     
     background-color: #9197AE;
 }
-#skillsList{
+ul{
     color: #001524;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    width: 20%;
-
+    width: 50%;
+    flex-wrap: wrap;
+    border-radius: 80%;
+    border: 2px solid #78290F;
     background-color: #9197AE;
+    font-size: 18pt;
     }
     li{
         list-style: none;
-        padding: 20px;
+        padding: 10px;
+        
     }
+    #skillsList li{
+        padding: 50px;
+    }
+   
 
 #lane{
     background-color: #15616D;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 250px;
+    border: 2px solid black;
+}
+
+.projects{
+    border-radius: 0%;
 }
