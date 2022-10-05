@@ -8,13 +8,27 @@ header{
 h1{
     display: flex;
     justify-content: center;
-    background-color: azure;
+    background-color: #78290F;
+    color: #ffecdf;
 }
 
 #contact{
     background-color: #15616D ;
+    color: #ffecdf;
 }
 
 #skills{
     background-color: #FF7D00;
+    color: #ffecdf;
+}
+
+#contactList{
+    color: #001524;
+    display: flex;
+    justify-content: center;
+}
+#skillsList{
+    color: #001524;
+    display: flex;
+    justify-content: center;
 }
