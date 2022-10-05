@@ -33,15 +33,26 @@ h1{
    
 }
 
-#contactList{
+#find{
     color: #001524;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
    flex-direction: column;
-    width: 25%;
-    
+    width: 300px;
     background-color: #9197AE;
+    height: 150px;
+    position: fixed;
+    left: 100px;
+}
+#find ul{
+    border: none;
+    width: 260px;
+    border-radius: 0%;
+    height: 100px;
+}
+#find h1{
+    width: 300px;
 }
 ul{
     color: #001524;
