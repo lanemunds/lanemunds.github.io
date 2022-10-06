@@ -5,22 +5,27 @@ body{
     flex-direction: column;
     background-image:url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") ;
 }
-header{
+#nav{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #15616D;
-    width: 100%;
-    position: sticky;
-    top: 10px;
+    background-image: url("https://images.unsplash.com/photo-1478733672327-ce27bc999503?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border-left: 5px solid #001524;
+  
 
 }
 .navButt{
     padding: 10px;
-    border-radius: 50%;
-    width: 100px;
+    width: 100%;
     background-color: #FF7D00;
     border: 2px solid #78290F;
+    font-size: 20pt;
 }
 h1{
     display: flex;
@@ -122,4 +127,9 @@ p{
 img{
     border: 2px solid #15616D;
     box-shadow: 5px 5px 5px;
+}
+
+.spacer{
+    width: 100%;
+    height: 600px;
 }
