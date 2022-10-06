@@ -11,6 +11,8 @@ header{
     align-items: center;
     background-color: #15616D;
     width: 100%;
+    position: sticky;
+    top: 10px;
 
 }
 .navButt{
