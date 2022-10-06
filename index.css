@@ -7,7 +7,18 @@ body{
 }
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #15616D;
+    width: 100%;
+
+}
+.navButt{
+    padding: 10px;
+    border-radius: 50%;
+    width: 100px;
+    background-color: #FF7D00;
+    border: 2px solid #78290F;
 }
 h1{
     display: flex;
@@ -15,11 +26,16 @@ h1{
     background-color: #78290F;
     color: #ffecdf;
     width: 20%;
+    border: 2px 2px 2px solid #15616D;
 }
 
 #contact{
     background-color: #15616D ;
     color: #ffecdf;
+    width: 300px;
+   font-size: 40px;
+   box-shadow: 5px 5px 5px #001524;
+   padding: 0px;
 }
 
 #skills{
@@ -41,9 +57,9 @@ h1{
    flex-direction: column;
     width: 300px;
     background-color: #9197AE;
-    height: 150px;
+    height: 50px;
     position: fixed;
-    left: 100px;
+    left: 50px;
     top: 200px;
 }
 #find ul{
@@ -52,9 +68,8 @@ h1{
     border-radius: 0%;
     height: 100px;
 }
-#find h1{
-    width: 300px;
-}
+
+
 ul{
     color: #001524;
     display: flex;
@@ -63,9 +78,10 @@ ul{
     width: 50%;
     flex-wrap: wrap;
     border-radius: 30%;
-    border: 2px solid #78290F;
+    border: 2px solid #15616D;
     background-color: #9197AE;
     font-size: 18pt;
+    box-shadow: 5px 5px 5px;
     }
     li{
         list-style: none;
@@ -78,13 +94,13 @@ ul{
    
 
 #lane{
-    background-color: #15616D;
+    background-color: #FF7D00;
     border-radius: 50%;
     display: flex;
     flex-direction: row;
     align-content: space-around;
     width: 250px;
-    border: 2px solid black;
+    border: 2px solid #78290F;
 }
 
 .projects{
@@ -99,5 +115,9 @@ p{
     width: 25%;
     font-size: 16pt;
     background-color: #9197AE;
+    border: 2px 2px 2px  solid #15616D;
 }
-
+img{
+    border: 2px solid #15616D;
+    box-shadow: 5px 5px 5px;
+}
