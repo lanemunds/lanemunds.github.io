@@ -3,15 +3,16 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") ;
+    background-color: #5F758E;
+    /* background-image:url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") ; */
 }
 #nav{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1478733672327-ce27bc999503?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
-    width: 25%;
+    background-image: url("https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    width: 20%;
     height: 100%;
     position: fixed;
     top: 0px;
@@ -23,14 +24,14 @@ body{
 .navButt{
     padding: 10px;
     width: 100%;
-    background-color: #FF7D00;
-    border: 2px solid #78290F;
+    background-color: #57A773;
+    border: 2px solid black;
     font-size: 20pt;
 }
 h1{
     display: flex;
     justify-content: center;
-    background-color: #78290F;
+    background-color: #0A210F;
     color: #ffecdf;
     width: 20%;
     border: 2px 2px 2px solid #15616D;
@@ -46,7 +47,7 @@ h1{
 }
 
 #skills{
-    background-color: #FF7D00;
+    background-color: #57A773;
     color: #ffecdf;
     display: flex;
     justify-content: center;
@@ -63,7 +64,7 @@ h1{
     text-align: center;
    flex-direction: column;
     width: 300px;
-    background-color: #9197AE;
+    background-color: #D1FAFF;
     height: 50px;
     position: fixed;
     left: 50px;
@@ -86,7 +87,7 @@ ul{
     flex-wrap: wrap;
    
     border: 2px solid #15616D;
-    background-color: #9197AE;
+    background-color: #D1FAFF;
     font-size: 18pt;
     box-shadow: 5px 5px 5px;
     }
@@ -106,18 +107,19 @@ ul{
    
 
 #lane{
-    background-color: #FF7D00;
+    background-color: #57A773;
     border-radius: 50%;
     display: flex;
     align-content: space-around;
     width: 250px;
-    border: 2px solid #78290F;
+    border: 2px solid #0A210F;
 
   
 }
 
 .projects{
     border-radius: 0%;
+    width: 50%;
 }
 p{
     color: #001524;
@@ -127,7 +129,7 @@ p{
    flex-direction: column;
     width: 25%;
     font-size: 16pt;
-    background-color: #9197AE;
+    background-color: #D1FAFF;
     border: 2px 2px 2px  solid #15616D;
 }
 img{
@@ -164,8 +166,4 @@ html {
   #hiscroll{
     position: relative;
     top: 0px;
-  }
-#headspacer{
-    height: 200px;
-    width: 100%;
   }
