@@ -1,4 +1,5 @@
 body{
+    font-family: "lora",serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,8 +39,8 @@ h1{
 }
 
 #contact{
-    background-color: #15616D ;
-    color: #ffecdf;
+    background-color: #102542 ;
+    color: #839788;
     width: 300px;
    font-size: 40px;
    box-shadow: 5px 5px 5px #001524;
