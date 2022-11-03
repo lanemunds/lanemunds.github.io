@@ -3,15 +3,14 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #5F758E;
-    /* background-image:url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") ; */
+    background-color: #839788;
 }
 #nav{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-color: #1E3F20;
     width: 20%;
     height: 100%;
     position: fixed;
@@ -24,15 +23,16 @@ body{
 .navButt{
     padding: 10px;
     width: 100%;
-    background-color: #57A773;
+    background-color: #855a5c;
     border: 2px solid black;
     font-size: 20pt;
+    color: #839788;
 }
 h1{
     display: flex;
     justify-content: center;
-    background-color: #0A210F;
-    color: #ffecdf;
+    background-color: #102542;
+    color: #839788;
     width: 20%;
     border: 2px 2px 2px solid #15616D;
 }
@@ -47,8 +47,8 @@ h1{
 }
 
 #skills{
-    background-color: #57A773;
-    color: #ffecdf;
+    background-color: #102542;
+    color: #839788;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,6 @@ h1{
     text-align: center;
    flex-direction: column;
     width: 300px;
-    background-color: #D1FAFF;
     height: 50px;
     position: fixed;
     left: 30px;
@@ -86,10 +85,8 @@ ul{
     width: 50%;
     flex-wrap: wrap;
    
-    border: 2px solid #15616D;
-    background-color: #D1FAFF;
     font-size: 18pt;
-    box-shadow: 5px 5px 5px;
+
     }
     li{
         list-style: none;
@@ -107,7 +104,8 @@ ul{
    
 
 #lane{
-    background-color: #57A773;
+    background-color: #102542;
+    color: #839788;
     border-radius: 50%;
     display: flex;
     align-content: space-around;
@@ -118,8 +116,10 @@ ul{
 }
 
 .projects{
-    border-radius: 0%;
-    width: 50%;
+    color: #001524;
+    display: flex;
+  width: 10%;
+    flex-direction: column;
 }
 p{
     color: #001524;
@@ -129,7 +129,6 @@ p{
    flex-direction: column;
     width: 25%;
     font-size: 16pt;
-    background-color: #D1FAFF;
     border: 2px 2px 2px  solid #15616D;
 }
 img{
@@ -166,4 +165,25 @@ html {
   #hiscroll{
     position: relative;
     top: 0px;
+  }
+
+  .projectpic{
+    height: 15rem;
+    width: 30rem;
+    position: relative;
+    top: 2rem;
+    box-shadow: none;
+  }
+  .projectsec{
+    display: flex;
+    justify-content: space-around;
+    width: 70rem;
+  }
+
+  .projlist{
+    width: 25%;
+  }
+
+  .prohead{
+    color: #102542;
   }
