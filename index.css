@@ -64,15 +64,15 @@ h1{
     justify-content: center;
     text-align: center;
    flex-direction: column;
-    width: 300px;
+    width: 150px;
     height: 50px;
     position: fixed;
-    left: 30px;
+    left: 10px;
     top: 200px;
 }
 #find ul{
     border: none;
-    width: 260px;
+    width: 200px;
     border-radius: 0%;
     height: 100px;
 }
@@ -119,16 +119,15 @@ ul{
 .projects{
     color: #001524;
     display: flex;
-  width: 10%;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
 }
 p{
     color: #001524;
     display: flex;
     justify-content: space-around;
     text-align: center;
-   flex-direction: column;
-    width: 25%;
+    width: 40%;
     font-size: 16pt;
     border: 2px 2px 2px  solid #15616D;
 }
@@ -175,16 +174,18 @@ html {
     top: 2rem;
     box-shadow: none;
   }
-  .projectsec{
-    display: flex;
-    justify-content: space-around;
-    width: 70rem;
-  }
 
-  .projlist{
-    width: 25%;
+  .project_card{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   border: 5px solid black;
+   width: 40rem;
   }
 
   .prohead{
     color: #102542;
+  }
+  .project_description{
+    width: 80%;
   }
