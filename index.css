@@ -4,14 +4,14 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #839788;
+    background-color: #5f758E;
 }
 #nav{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #1E3F20;
+    background-color: #000009;
     width: 20%;
     height: 100%;
     position: fixed;
@@ -24,23 +24,23 @@ body{
 .navButt{
     padding: 10px;
     width: 100%;
-    background-color: #855a5c;
+    background-color: #ccc7b9;
     border: 2px solid black;
     font-size: 20pt;
-    color: #839788;
+    color: #000009;
 }
 h1{
     display: flex;
     justify-content: center;
-    background-color: #102542;
-    color: #839788;
+    background-color: #000009;
+    color: #e2d4ba;
     width: 20%;
     border: 2px 2px 2px solid #15616D;
 }
 
 #contact{
-    background-color: #102542 ;
-    color: #839788;
+    background-color: #000009 ;
+    color: #e2d4ba;
     width: 300px;
    font-size: 40px;
    box-shadow: 5px 5px 5px #001524;
@@ -48,8 +48,8 @@ h1{
 }
 
 #skills{
-    background-color: #102542;
-    color: #839788;
+    background-color: #000009;
+    color: #e2d4ba;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,14 +59,14 @@ h1{
 }
 
 #find{
-    color: #001524;
+    color: #000009;
     display: flex;
     justify-content: center;
     text-align: center;
    flex-direction: column;
     width: 150px;
     height: 50px;
-    position: fixed;
+    position: absolute;
     left: 10px;
     top: 200px;
 }
@@ -105,8 +105,8 @@ ul{
    
 
 #lane{
-    background-color: #102542;
-    color: #839788;
+    background-color: #000009;
+    color: #e2d4ba;
     border-radius: 50%;
     display: flex;
     align-content: space-around;
@@ -184,7 +184,7 @@ html {
   }
 
   .prohead{
-    color: #102542;
+    color: #000009;
   }
   .project_description{
     width: 80%;
