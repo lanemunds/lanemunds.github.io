@@ -1,39 +1,13 @@
 body{
-    font-family: "lora",serif;
+    color: #e2d4ba;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #5f758E;
-}
-#nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #000009;
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    border-left: 5px solid #001524;
-  
-
-}
-.navButt{
-    padding: 10px;
-    width: 100%;
-    background-color: #ccc7b9;
-    border: 2px solid black;
-    font-size: 20pt;
-    color: #000009;
 }
 h1{
     display: flex;
     justify-content: center;
-    background-color: #000009;
-    color: #e2d4ba;
+    color: dimgrey;
     width: 20%;
     border: 2px 2px 2px solid #15616D;
 }
@@ -47,93 +21,51 @@ h1{
    padding: 0px;
 }
 
-#skills{
-    background-color: #000009;
-    color: #e2d4ba;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    width: 20%;
-   
-}
-
 #find{
-    color: #000009;
+    color: #e9e9f0;
     display: flex;
     justify-content: center;
     text-align: center;
    flex-direction: column;
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    left: 10px;
-    top: 200px;
 }
 #find ul{
     border: none;
-    width: 200px;
-    border-radius: 0%;
-    height: 100px;
+    background: dimgrey;
 }
 
 
-ul{
-    color: #001524;
+#skillsList{
+    color: dimgrey;
     display: flex;
     justify-content: space-around;
     text-align: center;
     width: 50%;
     flex-wrap: wrap;
+    border: 2px solid black;
    
     font-size: 18pt;
 
     }
-    li{
-        list-style: none;
-        padding: 10px;
-        
-    }
+
     #skillsList li{
        display: flex;  
        justify-content: space-between;
        width: 225px;
        position: relative;
+       
     
 
     }
    
 
-#lane{
-    background-color: #000009;
-    color: #e2d4ba;
-    border-radius: 50%;
-    display: flex;
-    align-content: space-around;
-    width: 250px;
-    border: 2px solid #0A210F;
-
-  
-}
-
-.projects{
-    color: #001524;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
 p{
-    color: #001524;
+    color: dimgrey;
     display: flex;
     justify-content: space-around;
     text-align: center;
     width: 40%;
     font-size: 16pt;
-    border: 2px 2px 2px  solid #15616D;
-}
-img{
-    border: 2px solid #15616D;
-    box-shadow: 5px 5px 5px;
+    border: 2px solid black;
 }
 
 .spacer{
@@ -170,22 +102,21 @@ html {
   .projectpic{
     height: 15rem;
     width: 30rem;
-    position: relative;
-    top: 2rem;
-    box-shadow: none;
+
   }
 
   .project_card{
    display: flex;
    align-items: center;
    flex-direction: column;
-   border: 5px solid black;
-   width: 40rem;
+   border: 2px solid black;
+   margin: 5rem;
   }
 
   .prohead{
-    color: #000009;
+    color: dimgray;
   }
   .project_description{
     width: 80%;
+    border: none;
   }
