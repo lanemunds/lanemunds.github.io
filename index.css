@@ -13,7 +13,7 @@ h1{
 h5{
     display: flex;
     justify-content: center;
-    color: dimgrey;
+    color: rgb(80, 79, 79);
     width: 20%;
 }
 
@@ -106,14 +106,17 @@ html {
   .projectpic{
     height: 15rem;
     width: 30rem;
+    max-width: 100%;
 
   }
 
   .project_card{
+    max-width: 100%;
     width: 80%;
    display: flex;
    align-items: center;
    border: 2px solid black;
+   flex-wrap: wrap;
    
    margin: 5rem;
   }
