@@ -115,8 +115,10 @@ html {
     width: 80%;
    display: flex;
    align-items: center;
+   justify-content: space-around;
    border: 2px solid black;
    flex-wrap: wrap;
+
    
    margin: 5rem;
   }
@@ -129,7 +131,7 @@ html {
     width: 25%;
   }
   .project_description{
-    width: 20%;
+
     border: none;
   }
   .navSpace{
