@@ -32,10 +32,12 @@ h5{
     justify-content: center;
     text-align: center;
    flex-direction: column;
+   border: 2px solid #000009;
+   background-color: dimgray;
 }
 #find ul{
     border: none;
-    background: dimgrey;
+    list-style-type: none;
 }
 
 
