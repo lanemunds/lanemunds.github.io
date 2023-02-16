@@ -32,6 +32,7 @@ h5{
     justify-content: center;
     text-align: center;
    flex-direction: column;
+   padding-right: 1rem;
    border: 2px solid #000009;
    background-color: dimgray;
 }
@@ -39,6 +40,10 @@ h5{
     border: none;
     list-style-type: none;
 }
+#contactList li{
+  padding: 1rem;
+  
+} 
 
 
 #skillsList{
